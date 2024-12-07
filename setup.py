@@ -40,7 +40,7 @@ setup(name='myougiden',
       data_files=[('etc/myougiden/', ['etc/myougiden/config.ini'])],
       license='GPLv3',
       install_requires=[
-          'https://github.com/fsan/python-romkan.git',
+          'romkan @ git+https://github.com/fsan/python-romkan.git',
           'termcolor',
           ],
       python_requires='>=3',
